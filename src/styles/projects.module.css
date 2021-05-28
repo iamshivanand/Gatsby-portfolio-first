@@ -1,0 +1,35 @@
+.portfolio {
+  text-align: center;
+}
+.portfolio > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.portfolio > h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+}
+.projects div {
+  min-height: 150px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* background: #0d0d0d; */
+}
+.projects div img {
+  border-radius: 0px;
+}
+.projects h3 {
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+}
+.projects p {
+  color: #ccc;
+  margin-top: 4px;
+}
